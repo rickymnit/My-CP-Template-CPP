@@ -1,9 +1,15 @@
 /**
  *    author:  humbleFoolRicky
- *    created: $CURRENT_DATE.$CURRENT_MONTH.$CURRENT_YEAR $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND
+ *    created: 24.08.2024 22:04:00
 **/
 #include <bits/stdc++.h>
 using namespace std;
+
+#ifdef LOCAL
+#include "algo/debug.h"
+#else
+#define debug(...) 42
+#endif
  
 /* TYPES  */
 #define ll long long
@@ -42,7 +48,10 @@ typedef long int int32;
 typedef unsigned long int uint32;
 typedef long long int int64;
 typedef unsigned long long int  uint64;
- 
+
+void solve(){
+    
+}
  
 int main(){
     ios::sync_with_stdio(false);
@@ -50,7 +59,7 @@ int main(){
     int t;
     cin>>t;
     while(t--){
-        
+        solve();
     }
     return 0;
 }
